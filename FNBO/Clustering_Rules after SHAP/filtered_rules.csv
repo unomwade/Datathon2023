@@ -1,0 +1,9 @@
+Cluster,Quartile,Rule,Precision,Recall
+1,1,Avg_Checking_Bal_median > -3.0 and average_small_owed_median <= 13.062117099761963 and age_in_system_months <= 7.5 and Online_Enrolled_mode_Y <= 0.5,0.9943181818181818,0.660377358490566
+2,3,DebitCard_Tx_median > 119.25 and Avg_Checking_Bal_median <= 1418.375 and account_category_deposit_loan <= 0.5 and Online_Enrolled_mode_Y > 0.5,0.7931034482758621,0.8034934497816594
+3,1,average_small_owed_median <= 0.6434884667396545 and average_remote_gained_median > 4.646091938018799 and Online_Enrolled_mode_Y > 0.5,1.0,0.625
+3,2,average_remote_gained_median <= 4.141049861907959 and average_remote_gained_median > 0.01483690133318305 and Online_Enrolled_mode_Y > 0.5 and DebitCard_Spend_std_deviation <= 1659.6170043945312,0.7042792645423019,0.956314935064935
+4,1,DebitCard_Tx_median <= 3.0 and average_small_owed_median > 138.5 and Online_Enrolled_mode_Y <= 0.5,1.0,0.8928571428571429
+6,1,Alerts_Enrolled_median > 1.25 and Avg_Checking_Bal_std_deviation <= 197.0387420654297 and average_small_owed_median <= 0.010190695989876986 and Avg_Savings_Bal_median <= 92543.5,0.6862745098039216,0.6140350877192983
+7,1,Avg_Checking_Bal_std_deviation <= 0.20412415266036987 and average_small_owed_median <= 0.004068282898515463 and age_in_system_months > 8.5 and Online_Enrolled_mode_Y <= 0.5,0.9833631210011988,0.9810887264664584
+8,1,Alerts_Enrolled_median <= 1.25 and Avg_Checking_Bal_std_deviation <= 16.66227436065674 and average_small_owed_median <= 0.11832474172115326 and Online_Enrolled_mode_Y > 0.5,0.8263187158102412,0.9107927143325374
