@@ -1,1 +1,1 @@
-#Catboost model with SHAP for interpretating and a web app to apply skope rules.
+#Code for the Catboost model with SHAP for interpreting and a web app to apply skope rules for FNBO Datathon 2023.
